@@ -1,0 +1,47 @@
+h1 {
+  font-family: helvetica;
+  font-size: 20pt;
+  color: rgb(216, 221, 228);
+}
+
+body {
+  font-family: courier;
+  font-size: 10pt;
+  color: white;
+  background-color: rgb(22, 22, 43);
+}
+
+.stage-directs {
+  font-style: italic;
+  color: gray;
+}
+
+.peter {
+  font-weight: 700;
+  color: rgb(130, 158, 235);
+}
+
+.dana {
+  font-weight: 700;
+  color: rgb(243, 174, 186);
+}
+
+.mayor {
+  font-weight: 700;
+  color: rgb(255, 218, 237);
+}
+
+.ray {
+  font-weight: 700;
+  color: rgb(69, 217, 236);
+}
+
+.egon {
+  font-weight: 700;
+  color: rgb(231, 110, 255);
+}
+
+.winston {
+  font-weight: 700;
+  color: rgb(102, 37, 223);
+}
