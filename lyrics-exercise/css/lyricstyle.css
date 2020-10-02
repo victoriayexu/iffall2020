@@ -1,0 +1,56 @@
+h1 {
+  font-family: tomarik-extrovert, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20pt;
+  color: rgb(50, 78, 43);
+}
+h2 {
+  font-family: quiet-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+}
+
+h3 {
+  font-family: quiet-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(84, 170, 228);
+}
+
+body {
+  font-family: botanika-mono-web, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10pt;
+  color: white;
+
+  background: url(https://pbs.twimg.com/media/ENzsfoMUcAEiI1w.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  width: 29%;
+  height: auto;
+}
+.chorus {
+  color: rgb(255, 238, 182);
+}
+
+.note {
+  font-style: italic;
+  color: gray;
+}
+.soft {
+  font-style: italic;
+  color: gray;
+}
+
+footer {
+  font-family: helvetica;
+  font-weight: 200;
+  font-size: 7pt;
+}
