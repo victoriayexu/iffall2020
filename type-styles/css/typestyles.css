@@ -1,0 +1,120 @@
+html {
+  color: gray;
+  font-family: "Ubuntu", sans serif;
+  font-size: 15pt;
+}
+
+h2 {
+  font-size: 25pt;
+  font-weight: 300;
+  text-indent: -24%;
+}
+
+h3 {
+  font-size: 12pt;
+  line-height: 1;
+}
+
+.title {
+  font-size: 200pt;
+  text-indent: -30%;
+  line-height: -5;
+  /* background: -webkit-linear-gradient(rgb(179, 179, 179), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #b8b8b8;
+}
+
+.subtitle {
+  font-size: 20pt;
+  text-indent: -16%;
+  line-height: -10;
+  color: rgb(148, 148, 148);
+}
+
+body {
+  margin-left: 24%;
+  margin-right: 24%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.texts {
+  margin: 5%;
+}
+.weight {
+  color: #afa1e0;
+}
+.light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.style {
+  color: #c9b48c;
+}
+.italic {
+  font-style: italic;
+}
+
+.spacing {
+  color: #8f7f61;
+}
+.morespace {
+  letter-spacing: 0.3em;
+}
+
+.lessspace {
+  letter-spacing: -0.06em;
+}
+
+.deco {
+  color: rgb(177, 207, 143);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.double {
+  text-decoration: underline double;
+}
+
+.dotted {
+  text-decoration: underline dotted;
+}
+
+.wavy {
+  text-decoration: underline wavy;
+}
+
+.undercolor {
+  text-decoration: underline darkseagreen;
+}
+
+.trans {
+  color: #b9a98c;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
