@@ -1,0 +1,126 @@
+.soundcloud {
+  position: fixed;
+  top: 10%;
+  left: 90%;
+}
+
+h1 {
+  font-family: tomarik-extrovert, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40pt;
+  color: rgb(51, 100, 39);
+}
+
+.outlinehead {
+  color: transparent;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 234, 138);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+h2 {
+  font-family: quiet-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+  letter-spacing: 0.08em;
+  color: rgb(104, 146, 93);
+}
+
+header {
+  position: fixed;
+  text-align: right;
+  line-height: 0.5em;
+  top: 50%;
+  left: 63%;
+}
+
+h3 {
+  font-family: quiet-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(129, 205, 255);
+  letter-spacing: 0.08em;
+}
+
+body {
+  font-family: botanika-mono-web, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11pt;
+  color: white;
+  margin: 10%;
+
+  background: linear-gradient(rgba(49, 56, 7, 0.027), rgba(134, 55, 2, 0.315)),
+    url(https://pbs.twimg.com/media/ENzsfoMUcAEiI1w.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* .parallax-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 8px;
+  perspective-origin: 0%;
+  display: flex;
+} */
+
+/* main {
+  background-color: #6d5e3d8f;
+  width: 40%;
+} */
+.background {
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(0px);
+}
+
+/* .foreground {
+  margin-top: auto;
+  margin-bottom: 50px;
+  transform-origin: 0;
+  transform: translateZ(3px);
+  transform: translateZ(3px) scale(0.625);
+} */
+
+img {
+  width: cover;
+  height: auto;
+  /* mask-image: linear-gradient(#f7eed5, #57482c); */
+}
+.chorus {
+  color: rgb(255, 238, 182);
+}
+
+.note {
+  font-weight: 600;
+  font-style: italic;
+  color: #ffb0b0;
+  background-color: rgb(20, 75, 54);
+}
+
+.soft {
+  font-style: italic;
+  color: rgb(117, 94, 63);
+}
+
+baek {
+  color: rgb(243, 188, 35);
+}
+
+footer {
+  font-family: quiet-sans, sans-serif;
+  font-weight: 200;
+  font-size: 7pt;
+}
