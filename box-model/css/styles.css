@@ -1,0 +1,29 @@
+.box-layers {
+  background-color: #eeeeee;
+}
+
+.box-layers {
+  padding: 2rem 1rem 4rem 1rem;
+  border-top: 10px solid #dddddd;
+  margin: 4rem 0;
+}
+
+.h2-wrapper {
+  border: 1px solid black;
+}
+
+.box-sizing-example {
+  background-color: #eeeeee;
+  padding: 2rem;
+  border: 10px solid #dddddd;
+  width: 100%;
+  /* tells browser to make the content box 100% by default; must add modifications urself */
+  box-sizing: border-box;
+}
+
+.overflow-example {
+  width: 50%;
+  height: 300px;
+  overflow: auto;
+}
+/* The box is now a scrolling container, allowing the content inside to have it's own scrollbar. Neat. Now... never, ever do this. This is almost always a terrible UX choice, and there is also almost always a better way to solve whatever problem you want to use this for. Pretend I never showed it to you. The takeaway from this section should not be "I can make scrolling containers!" Instead, it should be "Don't set height on the box. Just let it stay flexible, growing automatically to hold it's content." */
