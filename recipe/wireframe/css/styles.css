@@ -1,0 +1,37 @@
+body {
+  max-width: 960px;
+  min-width: 320px;
+  margin: auto;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  /* padding-right: 5rem;
+  padding-left: 5rem; */
+}
+
+.recipephoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+h1,
+h2 {
+  text-align: left;
+}
+
+.recipe {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 640px) {
+  .ingredients,
+  .directions {
+    width: 50%;
+  }
+}
