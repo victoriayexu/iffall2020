@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Buttons &mdash; Victoria Xu</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu:700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/c93452768d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://use.typekit.net/stj1cph.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+      body {
+        color: #333;
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      main {
+        margin: 40px;
+      }
+
+      h1 {
+        font-size: 30px;
+        margin-bottom: 40px;
+      }
+
+      .button_container {
+        border: 1px solid #ddd;
+        margin: 0 10px 10px 0;
+        padding: 20px;
+        width: 300px;
+        height: 300px;
+        float: left;
+        overflow: hidden;
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      a#btn_spotify {
+        display: inline-block;
+        height: 50px;
+        box-sizing: border-box;
+        border-radius: 25px;
+        margin: auto;
+        margin-top: 100px;
+        padding: 10px 40px 0 40px;
+        background-color: #2ebd59;
+        border: 2px solid #2ebd59;
+        color: #fff;
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.5s;
+      }
+
+      a#btn_spotify:hover {
+        background-color: #fff;
+        border: 2px solid #000;
+        color: #000;
+      }
+
+      a#btn_amazon {
+        display: block;
+        width: 100px;
+        height: 100px;
+        box-sizing: border-box;
+        border-radius: 50px;
+        margin: auto;
+        margin-top: 75px;
+        padding-top: 8px;
+        background-color: #232f3e;
+        color: #fff;
+        text-align: center;
+        font-size: 60px;
+        transition: all 0.2s;
+      }
+
+      a#btn_amazon:hover {
+        background-color: #fc9a18;
+      }
+
+      a#btn_twitter {
+        display: inline-block;
+        height: 40px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin: auto;
+        margin-top: 105px;
+        padding: 10px 30px 0 30px;
+        background-color: #56cdf1;
+        color: #fff;
+        font-size: 18px;
+        font-family: "Arial", sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a#btn_twitter:hover {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+        background: rgb(46, 191, 236); /* Old browsers */
+        background: -moz-linear-gradient(
+          -45deg,
+          rgba(46, 191, 236, 1) 0%,
+          rgba(40, 165, 203, 1) 100%
+        ); /* FF3.6-15 */
+        background: -webkit-linear-gradient(
+          -45deg,
+          rgba(46, 191, 236, 1) 0%,
+          rgba(40, 165, 203, 1) 100%
+        ); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(
+          135deg,
+          rgba(46, 191, 236, 1) 0%,
+          rgba(40, 165, 203, 1) 100%
+        ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+      }
+
+      a#btn_indiegogo {
+        display: inline-block;
+        position: relative;
+        margin: auto;
+        margin-top: 100px;
+        padding: 8px 16px;
+        background-color: #fff;
+        color: #eb1478;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: -2px;
+        transition: all 0.2s;
+      }
+
+      a#btn_indiegogo:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-color: #eb1478;
+        transition: all 0.5s;
+      }
+
+      a#btn_indiegogo:hover {
+        color: #fff;
+      }
+
+      a#btn_indiegogo:hover:before {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+      }
+
+      a#btn_indiegogo span {
+        position: relative;
+        z-index: 10;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Button Styling &mdash; Victoria Xu</h1>
+
+      <div class="button_container">
+        <a href="http://www.spotify.com" target="_blank" id="btn_spotify"
+          >Spotify</a
+        >
+      </div>
+
+      <div class="button_container">
+        <a href="http://www.amazon.com" target="_blank" id="btn_amazon"
+          ><i class="fa fa-amazon"></i
+        ></a>
+      </div>
+
+      <div class="button_container">
+        <a href="http://www.twitter.com" target="_blank" id="btn_twitter"
+          >twitter</a
+        >
+      </div>
+
+      <div class="button_container">
+        <a href="http://www.indiegogo.com" target="_blank" id="btn_indiegogo"
+          ><span>indiegogo</span></a
+        >
+      </div>
+      <!-- your buttons -->
+
+      <div class="button_container">
+        <a href="http://www.apple.com" target="_blank" id="btn_apple">
+          <!-- <span>apple</span> -->
+          <i class="fas fa-apple-alt"></i>
+          <!-- <i class="fab fa-apple"></i> -->
+          <div class="applebite"></div>
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.ibm.com" target="_blank" id="btn_ibm">
+          <!-- <span>ibm</span> -->
+          <img src="css/graphics/IBM_black.png" class="ibmblack" />
+          <img src="css/graphics/IBM_blueyes.png" class="ibmblue" />
+          <div class="ibmbg"></div>
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.michaelkors.com" target="_blank" id="btn_mk">
+          <!-- <span>michaelkors</span>  -->
+          <img src="css/graphics/MK_icon.png" class="mk-icon" />
+          <img src="css/graphics/MK_blackword.png" class="mk-word"
+        /></a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.ideo.com" target="_blank" id="btn_ideo">
+          <!-- <span">IDEO</span> -->
+          <div class="ideobox" id="ideo-i">I</div>
+          <div class="ideobox" id="ideo-d">D</div>
+          <div class="ideobox" id="ideo-e">E</div>
+          <div class="ideobox" id="ideo-o">O</div>
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.sardellastl.com" target="_blank" id="btn_sardella">
+          <!-- <span>sardella</span> -->
+          <img src="css/graphics/Sardella-Logo-RGB.jpg" class="sardella-logo" />
+          <div class="sarteal" id="sardella-1"></div>
+          <div class="sarblue" id="sardella-2"></div>
+          <div class="sarteal" id="sardella-3"></div>
+          <div class="sarblue" id="sardella-4"></div>
+          <div class="sarteal" id="sardella-5"></div>
+          <div class="sarblue" id="sardella-6"></div>
+          <div class="sarteal" id="sardella-7"></div>
+          <div class="sarblue" id="sardella-8"></div>
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.lyft.com" target="_blank" id="btn_lyft">
+          <!-- <span>lyft</span> -->
+          <img src="css/graphics/lyft_pink.png" id="lyft-pink" />
+          <img src="css/graphics/lyft_black.png" id="lyft-black" />
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.samsung.com" target="_blank" id="btn_samsung">
+          <!-- <span>samsung</span> -->
+          <img src="css/graphics/sam_ellipse.png" id="sam-oval" />
+          <img src="css/graphics/sam_word.png" id="sam" />
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.nike.com/us.en_us/" target="_blank" id="btn_nike">
+          <!-- <span>nike</span> -->
+          <img src="css/graphics/swoosh.png" id="swoosh" />
+          <img src="css/graphics/nike.jpg" id="nikew" />
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.teslamotors.com" target="_blank" id="btn_tesla">
+          <!-- <span>tesla</span> -->
+          <img src="css/graphics/tesla_whitet.png" id="tesla-t" />
+          <img src="css/graphics/tesla_redword.svg" id="tesla-word" />
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.moo.com/us/" target="_blank" id="btn_moo">
+          <!-- <span>moo</span> -->
+
+          <img src="css/graphics/moo_clear.png" id="mooclear" />
+          <img src="css/graphics/MOO_fill.jpg" id="moofill" />
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.pottermore.com" target="_blank" id="btn_pottermore">
+          <!-- <span>pottermore</span> -->
+          <img src="css/graphics/pottermore_black.png" id="pot" />
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.fitbit.com/home" target="_blank" id="btn_fitbit">
+          <!-- <span>fitbit</span> -->
+          <img src="css/graphics/fitbit.png" id="fitbit-w" />
+          <img src="css/graphics/fitbit_logo.png" id="fitbit-logo" />
+        </a>
+      </div>
+      <div class="button_container">
+        <a
+          href="http://www.mollyjogger.com"
+          target="_blank"
+          id="btn_mollyjogger"
+        >
+          <!-- <span>mollyjogger</span> -->
+          <img src="css/graphics/molly.jpg" id="molly" />
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.stjude.com" target="_blank" id="btn_stjude">
+          <!-- <span>st jude</span> -->
+          <img src="css/graphics/stjude.png" id="jude" />
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.newyorker.com" target="_blank" id="btn_newyorker">
+          <!-- <span>the new yorker</span> -->
+          <img src="css/graphics/ny.png" id="ny" />
+          <div id="nyline"></div>
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.foreflight.com" target="_blank" id="btn_foreflight">
+          <!-- <span>foreflight</span> -->
+          <i class="fas fa-plane"></i>
+          <img src="css/graphics/4flight.png" id="star" />
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.npr.org" target="_blank" id="btn_npr">
+          <!-- <span>npr</span> -->
+          <img src="css/graphics/NPRLogo_BlackOutline.png" id="nprwire" />
+          <div id="red"></div>
+          <div id="black"></div>
+          <div id="blue"></div>
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.instagram.com/" target="_blank" id="btn_insta">
+          <!-- <span>instagram</span> -->
+          <i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.facebook.com/" target="_blank" id="btn_fb">
+          <!-- <span>facebook</span> -->
+          <div class="fb-full">
+            <i class="fab fa-facebook-f"></i>
+            <!-- <i class="fab fa-facebook"></i> -->
+            <div class="circle"></div>
+          </div>
+        </a>
+      </div>
+      <div class="button_container">
+        <a href="http://www.oldnavy.com/" target="_blank" id="btn_oldnavy"
+          ><span class="oldnavy">OLD NAVY</span>
+          <div class="ellipse"></div>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>

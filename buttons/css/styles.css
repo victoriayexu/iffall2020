@@ -1,0 +1,692 @@
+a#btn_apple {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+a#btn_apple:active .applebite {
+  background-color: white;
+}
+a#btn_apple .fa-apple-alt {
+  display: inline-block;
+  position: relative;
+  color: lightgray;
+  font-size: 80px;
+  transform: translate(0%, 100%);
+  transition: all 0.4s;
+}
+a#btn_apple .applebite {
+  position: absolute;
+  margin: 26px 0px 0px 55px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: rgba(238, 232, 170, 0);
+  z-index: 10;
+}
+a#btn_apple .fa-apple-alt:hover {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5ebd3e+13,ffb900+38,f78200+49,e23838+60,973999+71,009cdf+93 */
+  background: #5ebd3e; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #5ebd3e 13%,
+    #ffb900 38%,
+    #f78200 49%,
+    #e23838 60%,
+    #973999 71%,
+    #009cdf 93%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #5ebd3e 13%,
+    #ffb900 38%,
+    #f78200 49%,
+    #e23838 60%,
+    #973999 71%,
+    #009cdf 93%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #5ebd3e 13%,
+    #ffb900 38%,
+    #f78200 49%,
+    #e23838 60%,
+    #973999 71%,
+    #009cdf 93%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ebd3e', endColorstr='#009cdf',GradientType=0 ); /* IE6-9 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+}
+a#btn_ibm {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  text-decoration: none;
+}
+a#btn_ibm img {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  margin-top: 85px;
+  text-decoration: none;
+  width: 150px;
+  transition: all 0.4s;
+}
+a#btn_ibm .ibmblack {
+  z-index: 1;
+}
+a#btn_ibm .ibmblack:hover {
+  opacity: 0;
+}
+a#btn_ibm .ibmbg {
+  position: absolute;
+  width: 180px;
+  height: 100px;
+  margin: 10px 20px 10px 20px;
+  background-color: palegoldenrod;
+  z-index: -10;
+}
+a#btn_ibm .ibmblue {
+  position: relative;
+  transform: translate(0%, -250%);
+  z-index: 0;
+}
+a#btn_mk {
+  display: block;
+  position: relative;
+  margin: auto;
+  text-decoration: none;
+  transition: all 0.9s;
+}
+a#btn_mk .mk-icon {
+  position: relative;
+  margin: auto;
+  margin-top: 55px;
+  text-decoration: none;
+  width: 150px;
+  padding: 10px 0 10px 0;
+  transition: all 0.9s;
+}
+a#btn_mk .mk-word {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  margin-top: -15px;
+  text-decoration: none;
+  width: 150px;
+}
+a#btn_mk .mk-icon:hover {
+  transform: rotateY(360deg);
+  background-color: rgb(236, 221, 134);
+}
+a#btn_ideo {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  font-family: ff-ernestine-pro, serif;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 40pt;
+  color: black;
+
+  transition: all 0.4s;
+}
+a#btn_ideo .ideobox {
+  padding: 0px 14px 0px 14px;
+  transition: all 0.4s;
+}
+a#btn_ideo #ideo-i:hover {
+  color: white;
+  background-color: rgb(66, 201, 194);
+  transform: rotateX(180deg);
+}
+a#btn_ideo #ideo-d:hover {
+  color: white;
+  background-color: rgb(117, 102, 79);
+  transform: rotateX(180deg);
+}
+a#btn_ideo #ideo-e:hover {
+  color: white;
+  background-color: rgb(245, 135, 46);
+  transform: rotateX(180deg);
+}
+a#btn_ideo #ideo-o:hover {
+  color: white;
+  background-color: rgb(45, 98, 105);
+  transform: rotateX(180deg);
+}
+a#btn_sardella {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a#btn_sardella .sardella-logo {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  text-decoration: none;
+  width: 250px;
+  transition: all 0.3s;
+}
+a#btn_sardella .sarteal {
+  position: absolute;
+  margin: -140px 0px 0px 42px;
+  width: 26px;
+  height: 70px;
+  background-color: rgba(58, 255, 235, 0.288);
+  z-index: 10;
+  opacity: 0%;
+  transition: all 0.3s;
+}
+a#btn_sardella .sarblue {
+  position: absolute;
+  margin: -140px 0px 0px 65px;
+  width: 22px;
+  height: 70px;
+  background-color: rgba(23, 124, 255, 0.281);
+  z-index: 10;
+  opacity: 0%;
+  transition: all 0.3s;
+}
+a#btn_sardella #sardella-3 {
+  margin: -140px 0px 0px 86px;
+  width: 22px;
+}
+a#btn_sardella #sardella-4 {
+  margin: -140px 0px 0px 108px;
+  width: 22px;
+}
+a#btn_sardella #sardella-5 {
+  margin: -140px 0px 0px 128px;
+  width: 22px;
+}
+a#btn_sardella #sardella-6 {
+  margin: -140px 0px 0px 144px;
+  width: 22px;
+}
+a#btn_sardella #sardella-7 {
+  margin: -140px 0px 0px 160px;
+  width: 22px;
+}
+a#btn_sardella #sardella-8 {
+  margin: -140px 0px 0px 180px;
+  width: 27px;
+}
+a#btn_sardella .sarteal:hover {
+  opacity: 100%;
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+a#btn_sardella .sarblue:hover {
+  opacity: 100%;
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+a#btn_sardella:active .sarteal {
+  opacity: 100%;
+}
+a#btn_sardella:active .sarblue {
+  opacity: 100%;
+}
+a#btn_lyft {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a#btn_lyft #lyft-pink {
+  position: absolute;
+  margin: 67px 0px 0px -66px;
+  width: 140px;
+  transition: all 0.3s;
+}
+a#btn_lyft #lyft-black {
+  position: absolute;
+  margin: 61px 0px 0px -72px;
+  width: 152px;
+  transition: all 0.3s;
+}
+a#btn_lyft:hover #lyft-pink {
+  transform: translate(3%, 3%);
+  transition: all 0.3s;
+}
+a#btn_lyft:hover #lyft-black {
+  transform: translate(-3%, -3%);
+  transition: all 0.3s;
+}
+
+a#btn_samsung {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a#btn_samsung #sam {
+  position: absolute;
+  margin: 80px 0px 0px -85px;
+  width: 160px;
+  opacity: 100%;
+  transition: all 0.3s;
+}
+a#btn_samsung #sam-oval {
+  position: absolute;
+  margin: 62px 0px 0px -108px;
+  width: 205px;
+  opacity: 0%;
+  transition: all 0.3s;
+}
+a#btn_samsung:hover #sam {
+  opacity: 0%;
+}
+a#btn_samsung:hover #sam-oval {
+  opacity: 100%;
+}
+a#btn_nike {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+a#btn_nike #swoosh {
+  position: absolute;
+  margin: 80px 0px 0px -85px;
+  width: 160px;
+  transition: all 0.4s;
+}
+a#btn_nike #nikew {
+  position: absolute;
+  margin: 40px 0px 0px -70px;
+  width: 90px;
+  opacity: 100%;
+  z-index: -10;
+  transform: translate(200%, 0%);
+  opacity: 0%;
+  transition: all 0.4s;
+}
+a#btn_nike:hover #nikew {
+  opacity: 100%;
+  transform: translate(0%, 0%);
+}
+a#btn_tesla {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a#btn_tesla #tesla-t {
+  position: absolute;
+  margin: 40px 0px 0px -68px;
+  width: 130px;
+  transition: all 0.3s;
+}
+a#btn_tesla #tesla-word {
+  position: absolute;
+  margin: 180px 0px 0px -60px;
+  width: 110px;
+  transition: all 0.3s;
+}
+a#btn_tesla:hover #tesla-t {
+  -webkit-filter: drop-shadow(0px 0px 10px rgb(235, 1, 1));
+  filter: drop-shadow(0px 0px 10px rgb(235, 1, 1));
+}
+a#btn_moo {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a#btn_moo #mooclear {
+  position: absolute;
+  margin: 67px 0px 0px -90px;
+  width: 170px;
+  transition: all 0.3s;
+  opacity: 100%;
+}
+a#btn_moo #moofill {
+  position: absolute;
+  margin: 67px 0px 0px -90px;
+  width: 170px;
+  transition: all 0.3s;
+  opacity: 0%;
+  z-index: -1;
+}
+a#btn_moo:hover #mooclear {
+  opacity: 0%;
+}
+a#btn_moo:hover #moofill {
+  opacity: 100%;
+}
+a#btn_pottermore {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+a#btn_pottermore #pot {
+  position: absolute;
+  margin: 67px 0px 0px -90px;
+  width: 170px;
+  transition: all 0.5s;
+  opacity: 100%;
+}
+a#btn_pottermore:hover #pot {
+  transform: scale(1.25);
+}
+a#btn_fitbit {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+a#btn_fitbit #fitbit-w {
+  position: absolute;
+  margin: 85px 0px 0px -30px;
+  width: 110px;
+  transition: all 0.5s;
+}
+a#btn_fitbit #fitbit-logo {
+  position: absolute;
+  margin: 70px 0px 0px -90px;
+  width: 50px;
+  transition: all 0.5s;
+}
+a#btn_fitbit:hover #fitbit-w {
+  transform: translate(-50%, 0%);
+  transition: all 0.5s;
+}
+a#btn_fitbit:hover #fitbit-logo {
+  transform: translate(250%, 0%);
+  transition: all 0.5s;
+}
+a#btn_mollyjogger {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+a#btn_mollyjogger #molly {
+  position: absolute;
+  margin: 75px 0px 0px -90px;
+  width: 170px;
+  transition: all 0.5s;
+  opacity: 100%;
+}
+a#btn_mollyjogger:hover #molly {
+  transform: rotateX(360deg);
+}
+a#btn_stjude {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+a#btn_stjude #jude {
+  position: absolute;
+  margin: 50px 0px 0px -100px;
+  width: 200px;
+  transition: all 0.4s;
+  opacity: 100%;
+}
+a#btn_stjude:hover #jude {
+  -webkit-filter: drop-shadow(3px 3px 3px rgba(124, 97, 85, 0.945));
+  filter: drop-shadow(3px 3px 3px rgba(124, 97, 85, 0.945));
+}
+
+a#btn_newyorker {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+a#btn_newyorker #ny {
+  position: absolute;
+  margin: 50px 0px 0px -100px;
+  width: 200px;
+  transition: all 0.4s;
+  opacity: 100%;
+}
+a#btn_newyorker #nyline {
+  position: absolute;
+  margin: 140px 0px 0px -100px;
+  width: 0px;
+  height: 3px;
+  background-color: darkgray;
+  transition: all 0.4s;
+  opacity: 100%;
+}
+a#btn_newyorker:hover #nyline {
+  width: 200px;
+}
+
+a#btn_foreflight {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+a#btn_foreflight .fa-plane {
+  position: absolute;
+  margin: 62px 0px 0px -20px;
+  font-size: 27pt;
+  text-decoration: none;
+  color: black;
+  transform: rotateZ(270deg);
+  transition: all 0.4s;
+  opacity: 100%;
+  z-index: 10;
+}
+a#btn_foreflight #star {
+  position: absolute;
+  margin: 10px 0px 0px -100px;
+  width: 200px;
+  transition: all 0.4s;
+}
+a#btn_foreflight:hover .fa-plane {
+  transform: rotateZ(270deg) translate(500%, 0%);
+}
+a#btn_npr {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+a#btn_npr #nprwire {
+  position: absolute;
+  margin: 50px 0px 0px -100px;
+  width: 200px;
+  transition: all 0.2s;
+
+  opacity: 100%;
+}
+a#btn_npr #red {
+  position: absolute;
+  margin: 50px 0px 0px -100px;
+  height: 67px;
+  width: 67px;
+  background-color: rgba(216, 35, 35, 0.5);
+  opacity: 0%;
+  z-index: 1;
+  transition: all 0.2s;
+}
+a#btn_npr #black {
+  position: absolute;
+  margin: 50px 0px 0px -33px;
+  height: 67px;
+  width: 67px;
+  background-color: rgba(22, 21, 21, 0.459);
+  opacity: 0%;
+  z-index: 1;
+  transition: all 0.2s;
+}
+a#btn_npr #blue {
+  position: absolute;
+  margin: 50px 0px 0px 34px;
+  height: 67px;
+  width: 67px;
+  background-color: rgba(13, 67, 185, 0.445);
+  opacity: 0%;
+  z-index: 1;
+  transition: all 0.2s;
+}
+a#btn_npr #red:hover {
+  opacity: 100%;
+  transition: all 0.2s;
+}
+a#btn_npr #black:hover {
+  opacity: 100%;
+  transition: all 0.2s;
+}
+a#btn_npr #blue:hover {
+  opacity: 100%;
+  transition: all 0.2s;
+}
+
+a#btn_insta {
+  transition: all 0.4s;
+}
+a#btn_insta .fa-instagram {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #0c0c0c;
+  background-color: none;
+  transform: translate(0%, 100%);
+  /* -webkit-filter:  */
+
+  font-size: 80px;
+  transition: all 0.4s;
+}
+a#btn_insta .fa-instagram:hover {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feda75+0,fa7e1e+25,d62976+45,962fbf+74,4f5bd5+100 */
+  /* color: #feda75; Old browsers */
+
+  background: -moz-linear-gradient(
+    -45deg,
+    #feda75 0%,
+    #fa7e1e 25%,
+    #d62976 45%,
+    #962fbf 74%,
+    #4f5bd5 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #feda75 0%,
+    #fa7e1e 25%,
+    #d62976 45%,
+    #962fbf 74%,
+    #4f5bd5 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #feda75 0%,
+    #fa7e1e 25%,
+    #d62976 45%,
+    #962fbf 74%,
+    #4f5bd5 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feda75', endColorstr='#4f5bd5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* box-shadow: 0px 0px 31px 11px rgba(231, 129, 231, 0.78); */
+  filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.966));
+  filter: drop-shadow(0px 0px 10px rgba(231, 129, 231, 0.884));
+}
+a#btn_fb .fb-full {
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+  text-decoration: none;
+}
+a#btn_fb .fa-facebook-f {
+  font-size: 80px;
+  color: rgb(36, 149, 255);
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 1;
+  transform: translate(-50%, 100%);
+  transition: all 0.3s;
+  opacity: 1;
+}
+/* a#btn_fb .fa-facebook {
+  font-size: 100px;
+  position: relative;
+  margin: auto;
+  z-index: 0;
+  transition: all 0.3s;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+} */
+a#btn_fb .fa-facebook-f:hover {
+  color: white;
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(8, 144, 255, 0.945));
+  filter: drop-shadow(0px 0px 20px rgba(8, 144, 255, 0.945));
+  -moz-filter: drop-shadow(0px 0px 20px rgba(8, 144, 255, 0.945));
+}
+/* a#btn_fb .fa-facebook:hover {
+  opacity: 1;
+} */
+/* a#btn_fb .circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  transform: translate(-50%, -10%);
+  top: 50%;
+  z-index: -10;
+} */
+/* a#btn_fb .circle:hover {
+  background-color: rgb(36, 149, 255);
+} */
+
+a#btn_oldnavy {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+a#btn_oldnavy .oldnavy {
+  /* position: absolute; */
+  display: block;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30pt;
+  color: rgb(82, 98, 141);
+  margin-top: 90px;
+}
+a#btn_oldnavy .ellipse {
+  display: block;
+  position: absolute;
+  margin: -68px 0px 0px -44px;
+  width: 220px;
+  height: 80px;
+  border: solid 3px;
+  border-color: rgb(82, 98, 141);
+  border-radius: 50%;
+  z-index: -1;
+  transition: all 0.4s;
+}
+a#btn_oldnavy:hover .ellipse {
+  border: solid 6px;
+  border-color: rgb(82, 98, 141);
+  transform: translate(-1%, -1%);
+  transition: all 0.4s;
+}
