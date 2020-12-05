@@ -1,0 +1,105 @@
+body {
+  width: fit-content;
+}
+.page {
+  margin: auto;
+  width: 100%;
+}
+.quote {
+  background-color: none;
+  font-family: "Red Rose";
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20%;
+  padding: 10%;
+}
+.rihanna-label {
+  font-family: "Red Rose";
+  font-weight: 600;
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+}
+#oval-deco {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  margin: auto;
+  width: 95%;
+  height: 200px;
+  border: solid 1px;
+  border-color: black;
+  border-width: 0.1rem;
+  border-radius: 50%;
+  transform: translate(-500%, 0%);
+}
+.about {
+  display: flex;
+  position: relative;
+}
+.about-title {
+  display: flex;
+  position: relative;
+  margin: 0 10% 0 10%;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-size: 100%;
+  letter-spacing: 0.6rem;
+  padding: 10px 0 10px 0;
+}
+.about-title #N {
+  /* -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); */
+  display: inline-block;
+  transform: rotateY(180deg);
+  letter-spacing: -0.6rem;
+}
+/* .about-typed {
+  display: flex;
+  position: relative;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-size: 100%;
+  letter-spacing: 0.6rem;
+  padding: 10px 0 10px 0;
+}
+#FB-wordmark {
+  display: flex;
+  width: 150px;
+  padding: 10px 0 10px 0;
+  margin: 0;
+} */
+.about-text {
+  font-family: Questrial, sans-serif;
+  font-size: 12px;
+}
+.copy {
+  width: 80%;
+  margin: auto;
+}
+.intro-pics {
+  width: 90%;
+}
+.riri-mascara {
+  margin-right: 0px;
+  padding-right: 0;
+}
+#founds {
+  display: flex;
+
+  width: 80%;
+}
+footer {
+  background-color: #d3acb3;
+  height: 100px;
+  width: 100%;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-size: 8px;
+  padding: 10% 5% 10% 5%;
+}
