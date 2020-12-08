@@ -1,6 +1,3 @@
-body {
-  width: fit-content;
-}
 .page {
   margin: auto;
   width: 100%;
@@ -93,13 +90,4 @@ body {
   display: flex;
 
   width: 80%;
-}
-footer {
-  background-color: #d3acb3;
-  height: 100px;
-  width: 100%;
-  font-family: "Red Rose";
-  font-style: normal;
-  font-size: 8px;
-  padding: 10% 5% 10% 5%;
 }
