@@ -9,6 +9,7 @@ body {
   font-family: "Red Rose", "Questrial", "Elsie";
   letter-spacing: 0.06rem;
   line-height: 18px;
+  max-width: 1400px;
   /* width: 100%;
   display: flex;
   flex-direction: column;
@@ -60,9 +61,13 @@ body {
 }
 .links {
   display: inline-block;
-  width: 100%;
-  padding: 30px 0% 30px 15%;
+  width: 280px;
+  /* padding: 30px 0% 30px 15%; */
+  padding: 30px 0 30px 0;
+  margin-left: auto;
+  margin-right: 0;
   font-size: 0.55rem;
+  align-items: center;
 }
 .links a {
   margin: 2.5% 2.5%;
@@ -71,6 +76,14 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0);
   transition: border-bottom 1s, color 0.5s, translate 0.4s;
 }
+/* 
+@media (min-width: 800px) {
+  .links {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+  }
+} */
 
 .links a:hover,
 .links a:active {
@@ -82,13 +95,15 @@ body {
 }
 .page {
   margin: 30px 10% 50px 10%;
+  padding-top: 60px;
 }
 h1 {
   font-family: "Questrial";
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 1.5rem;
+  letter-spacing: 1.3rem;
   font-size: 40px;
+  line-height: 2.5rem;
 }
 h2 {
   font-family: "Elsie";
@@ -103,10 +118,10 @@ h3 {
 
 footer {
   background-color: #d3acb3;
-  height: 70px;
+  height: 30px;
   /* width: 100%; */
   font-family: "Red Rose";
   font-style: normal;
   font-size: 8px;
-  padding: 10% 5% 10% 5%;
+  padding: 3% 5% 4% 5%;
 }
