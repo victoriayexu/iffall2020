@@ -1,0 +1,184 @@
+.page {
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+}
+.quote {
+  background-color: none;
+  font-family: "Red Rose";
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  margin: 15% 0 15% 0;
+  padding: 10%;
+  border: solid black 1pt;
+}
+.rihanna-label {
+  font-family: "Red Rose";
+  font-weight: 600;
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+}
+/* #oval-deco {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  margin: auto;
+  width: 95%;
+  height: 200px;
+  border: solid 1px;
+  border-color: black;
+  border-width: 0.1rem;
+  border-radius: 50%;
+  transform: translate(-500%, 0%); */
+/* } */
+.front-pics {
+  display: inline-block;
+  position: relative;
+  margin: 5% 10% 0% 10%;
+}
+.front-pics img {
+  position: relative;
+  width: 60%;
+}
+#eye {
+  z-index: 10;
+  transform: translate(70%, -330%);
+}
+.about-title {
+  margin: 5% 10% 50% 5%;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.6rem;
+  padding: 20px 0 20px 0;
+}
+.about-title #N {
+  /* -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); */
+  display: inline-block;
+  transform: rotateY(180deg);
+  letter-spacing: -0.6rem;
+}
+
+.about-text {
+  font-family: Questrial, sans-serif;
+  font-size: 12px;
+}
+.copy {
+  width: 80%;
+  margin: auto;
+  padding: 20px 20px 20px 20px;
+}
+.intro-pics {
+  /* display: flex; */
+  width: 90%;
+}
+
+.riri-mascara {
+  display: flex;
+  margin-right: -20%;
+}
+
+.foundations {
+  /* display: flex; */
+  width: 80%;
+  /* margin: 0 20px 0 20px; */
+  padding: 30px 0 30px 30px;
+}
+@media (min-width: 400px) {
+  .page {
+    margin: auto;
+  }
+  .about-title {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 750px) {
+  .front-pics {
+    width: 600px;
+    margin: 10% 5% 10% 5%;
+    z-index: -1;
+    transform: translate(0%, -40%);
+  }
+  .quote {
+    z-index: 20;
+    width: 400px;
+
+    margin: 0% 0 0 35%;
+    padding: 8% 10% 8% 10%;
+    transform: translate(0%, 130%);
+  }
+  .about {
+    transform: translate(0, -420px);
+  }
+  /* .about-text {
+    font-size: 50px;
+  } */
+  .about-title {
+    font-size: 1.3rem;
+  }
+  .riri-mascara {
+    width: 700px;
+    margin-left: 20%;
+  }
+  .foundations {
+    width: 500px;
+    margin: auto;
+  }
+}
+@media (min-width: 900px) {
+  .quote {
+    z-index: 20;
+    width: 400px;
+    border: solid black 1pt;
+    margin: 0% 0 0 40%;
+  }
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 5% 0 5%;
+  }
+  .about-title {
+    font-size: 1.5rem;
+    margin-left: -5%;
+  }
+
+  .p1__wrapper,
+  .p2_wrapper {
+    display: flex;
+  }
+
+  #p1 {
+    width: 40%;
+    padding-top: 100px;
+    margin: 0;
+    /* flex-wrap: wrap; */
+  }
+  #p2 {
+    width: 40%;
+    padding-top: 10px;
+    margin-left: 40px;
+  }
+  .riri-mascara {
+    width: 600px;
+    margin: 0;
+    transform: translate(0%, -10%);
+    /* margin-right: -20%; */
+  }
+  .foundations {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 200px;
+    margin: 0 20% 0 0;
+  }
+  #founds {
+    width: 400px;
+    /* flex-wrap: wrap; */
+  }
+}

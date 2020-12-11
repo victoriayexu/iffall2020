@@ -1,0 +1,157 @@
+body {
+  font-family: "Red Rose", "Questrial", "Elsie";
+}
+.page {
+  margin: 60px 10% 10% 10%;
+  max-width: 1000px;
+}
+.heading {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.intro-text {
+  border: solid black 1pt;
+  padding: 100px 20px 20px 20px;
+}
+h2 {
+  padding: 10px;
+}
+p {
+  font-family: "Questrial";
+  padding: 10px;
+}
+.intro-pic {
+  display: flex;
+  position: relative;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.cover-pic-img {
+  width: 60%;
+  margin: auto;
+}
+.launch,
+.yr2017-2018,
+yr2019-2020 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#riri-launch {
+  width: 100%;
+  margin: auto;
+}
+
+li {
+  display: block;
+  text-align: center;
+  list-style-type: none;
+  padding: 3%;
+  /* font-size: 0.8rem; */
+}
+li p {
+  padding: 10px;
+}
+#bodylava,
+#dirty30,
+#chill {
+  width: 240px;
+}
+.concealers {
+  margin-left: -12%;
+}
+#concealer-img {
+  width: 70%;
+}
+@media (min-width: 600px) {
+  h1 {
+    font-size: 40px;
+    letter-spacing: 1.3rem;
+  }
+  .cover-pic-img {
+    width: 400px;
+  }
+  .launch-highs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 900px) {
+  .heading {
+    /* width: 55%;
+    margin-left: -8%; */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+  }
+  .intro-text {
+    margin-left: -5%;
+    width: 45%;
+  }
+
+  .cover-pic-img {
+    width: 400px;
+  }
+  .intro-pic {
+    margin-right: -5%;
+  }
+  h2 {
+    padding-top: 5%;
+  }
+  .launch,
+  .yr2019-2020 {
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+  .yr2019-2020 {
+    flex-wrap: wrap;
+  }
+  .launch,
+  .yr2017-2018,
+  yr2019-2020 {
+    padding: 0px;
+  }
+  #riri-launch {
+    width: 400px;
+  }
+  .launch p {
+    padding-left: 15px;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% -12% 0% -12%;
+  }
+  li {
+    width: 25%;
+  }
+  li img {
+    width: 100px;
+  }
+
+  /* .concealers {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+  #concealer-img {
+    width: 400px;
+  }
+  .concealer-text {
+    width: 50%;
+    padding: 10% 0% 0% 10px;
+  }
+}
+@media (min-width: 1250px) {
+  .page {
+    margin: auto;
+  }
+  .cover-pic-img {
+    width: 520px;
+  }
+  .concealer-text {
+    width: 60%;
+    padding-left: 10%;
+  }
+}

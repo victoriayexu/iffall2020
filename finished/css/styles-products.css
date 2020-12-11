@@ -1,0 +1,127 @@
+.page {
+  margin: 60px 10% 10% 10%;
+  max-width: 1000px;
+}
+.heading-text {
+  /* display: flex;
+  flex-wrap: wrap; */
+  border: solid black 1pt;
+  padding: 100px 20px 20px 20px;
+}
+
+.intro-pic-grouping {
+  display: flex;
+}
+.intro-pic-1 {
+  display: flex;
+  position: relative;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.cover-pic-img-1 {
+  width: 60%;
+  margin: auto;
+  z-index: -1;
+}
+.cover-pic-img-2 {
+  position: absolute;
+  width: 35%;
+  margin: auto;
+  z-index: 10;
+  transform: translate(0%, 75%);
+}
+.face,
+.cheek,
+.lips,
+.eyes {
+  padding: 20px 0px 0px 20px;
+}
+li {
+  display: block;
+  text-align: center;
+  padding: 25px 0px 0px 25px;
+}
+li img {
+  width: 300px;
+}
+@media (min-width: 600px) {
+  h1 {
+    font-size: 40px;
+    letter-spacing: 1.3rem;
+  }
+  .cover-pic-img-1 {
+    width: 400px;
+  }
+  .cover-pic-img-2 {
+    width: 300px;
+  }
+}
+@media (min-width: 900px) {
+  .heading {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+  }
+  .heading-text {
+    width: 45%;
+    margin-left: -8%;
+  }
+  .intro-pic-grouping {
+    padding-left: 5%;
+  }
+  .cover-pic-img-1 {
+    /* margin: 0; */
+    width: 350px;
+    margin-right: -20%;
+  }
+  .cover-pic-img-2 {
+    width: 200px;
+  }
+  .face,
+  .cheek,
+  .lips,
+  .eyes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  h2 {
+    margin-top: 5%;
+  }
+  li {
+    margin: 0% 0% 2% 0%;
+    width: 200px;
+  }
+  ul li img {
+    width: 190px;
+  }
+}
+@media (min-width: 1000px) {
+  li {
+    width: 230px;
+  }
+  ul li img {
+    width: 220px;
+  }
+}
+@media (min-width: 1250px) {
+  .page {
+    margin: auto;
+  }
+  .cover-pic-img {
+    width: 520px;
+  }
+  li {
+    width: 270px;
+  }
+  ul li img {
+    width: 260px;
+  }
+}
