@@ -1,0 +1,129 @@
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  background-color: #eedfe0;
+  font-size: 10px;
+  margin: 0 0 0 0;
+  font-family: "Red Rose", "Questrial", "Elsie";
+  letter-spacing: 0.06rem;
+  line-height: 18px;
+  max-width: 1400px;
+  /* width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  margin: auto; */
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e8bdb7+0,eedfe0+84 */
+  background: #e8bdb7; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #e8bdb7 10%,
+    #eedfe000 84%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #e8bdb7 10%,
+    #eedfe000 84%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #e8bdb7 10%,
+    #eedfe000 84%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8bdb7', endColorstr='#eedfe0',GradientType=0 ); /* IE6-9 */
+}
+#home-button {
+  display: inline-block;
+  position: relative;
+  padding: 50%;
+  opacity: 100%;
+  transition: opacity 0.3s;
+}
+#FB-logo {
+  width: 50px;
+}
+
+#home-button:hover,
+:active {
+  opacity: 60%;
+  transition: opacity 0.3s;
+}
+.links {
+  display: inline-block;
+  width: 280px;
+  /* padding: 30px 0% 30px 15%; */
+  padding: 30px 0 30px 0;
+  margin-left: auto;
+  margin-right: 0;
+  font-size: 0.55rem;
+  align-items: center;
+}
+.links a {
+  margin: 2.5% 2.5%;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  transition: border-bottom 1s, color 0.5s, translate 0.4s;
+}
+/* 
+@media (min-width: 800px) {
+  .links {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+  }
+} */
+
+.links a:hover,
+.links a:active {
+  color: #744c51;
+  border-bottom: 1px solid #744c51;
+  transform: translate(2000%, 100%);
+  transition: border-bottom 1s, color 0.5s, translate 0.4s;
+  transition-timing-function: ease-out 1s;
+}
+.page {
+  margin: 30px 10% 50px 10%;
+  padding-top: 60px;
+}
+h1 {
+  font-family: "Questrial";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.1rem;
+  font-size: 30px;
+  line-height: 2.5rem;
+}
+h2 {
+  font-family: "Elsie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2rem;
+}
+h3 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #d3acb3;
+  height: 30px;
+  /* width: 100%; */
+  font-family: "Red Rose";
+  font-style: normal;
+  font-size: 8px;
+  padding: 3% 5% 4% 5%;
+}
