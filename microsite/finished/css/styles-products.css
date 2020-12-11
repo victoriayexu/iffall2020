@@ -2,9 +2,9 @@
   margin: 60px 10% 10% 10%;
   max-width: 1000px;
 }
-.heading {
-  display: flex;
-  flex-wrap: wrap;
+.heading-text {
+  /* display: flex;
+  flex-wrap: wrap; */
   border: solid black 1pt;
   padding: 100px 20px 20px 20px;
 }
@@ -31,8 +31,16 @@
   z-index: 10;
   transform: translate(0%, 75%);
 }
+.face,
+.cheek,
+.lips,
+.eyes {
+  padding: 20px 0px 0px 20px;
+}
 li {
   display: block;
+  text-align: center;
+  padding: 25px 0px 0px 25px;
 }
 li img {
   width: 300px;
@@ -46,22 +54,74 @@ li img {
     width: 400px;
   }
   .cover-pic-img-2 {
-    width: 200px;
+    width: 300px;
   }
 }
 @media (min-width: 900px) {
   .heading {
-    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+  }
+  .heading-text {
+    width: 45%;
     margin-left: -8%;
   }
   .intro-pic-grouping {
-    margin: 0;
-    flex-wrap: wrap;
+    padding-left: 5%;
   }
   .cover-pic-img-1 {
-    margin: 0;
+    /* margin: 0; */
+    width: 350px;
+    margin-right: -20%;
   }
   .cover-pic-img-2 {
     width: 200px;
+  }
+  .face,
+  .cheek,
+  .lips,
+  .eyes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  h2 {
+    margin-top: 5%;
+  }
+  li {
+    margin: 0% 0% 2% 0%;
+    width: 200px;
+  }
+  ul li img {
+    width: 190px;
+  }
+}
+@media (min-width: 1000px) {
+  li {
+    width: 230px;
+  }
+  ul li img {
+    width: 220px;
+  }
+}
+@media (min-width: 1250px) {
+  .page {
+    margin: auto;
+  }
+  .cover-pic-img {
+    width: 520px;
+  }
+  li {
+    width: 270px;
+  }
+  ul li img {
+    width: 260px;
   }
 }
