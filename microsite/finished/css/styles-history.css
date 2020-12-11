@@ -92,7 +92,7 @@ li p {
   }
 
   .cover-pic-img {
-    width: 450px;
+    width: 400px;
   }
   .intro-pic {
     margin-right: -5%;
@@ -101,9 +101,12 @@ li p {
     padding-top: 5%;
   }
   .launch,
-  yr2019-2020 {
+  .yr2019-2020 {
     display: flex;
     /* flex-wrap: wrap; */
+  }
+  .yr2019-2020 {
+    flex-wrap: wrap;
   }
   .launch,
   .yr2017-2018,
@@ -128,12 +131,16 @@ li p {
     width: 100px;
   }
 
-  .concealers {
+  /* .concealers {
     display: flex;
     flex-wrap: wrap;
-  }
+  } */
   #concealer-img {
     width: 400px;
+  }
+  .concealer-text {
+    width: 50%;
+    padding: 10% 0% 0% 10px;
   }
 }
 @media (min-width: 1250px) {
@@ -142,5 +149,9 @@ li p {
   }
   .cover-pic-img {
     width: 520px;
+  }
+  .concealer-text {
+    width: 60%;
+    padding-left: 10%;
   }
 }
