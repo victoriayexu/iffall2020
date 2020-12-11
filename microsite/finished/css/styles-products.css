@@ -1,5 +1,6 @@
 .page {
   margin: 60px 10% 10% 10%;
+  max-width: 1000px;
 }
 .heading {
   display: flex;
@@ -7,31 +8,7 @@
   border: solid black 1pt;
   padding: 100px 20px 20px 20px;
 }
-@media (min-width: 600px) {
-  h1 {
-    font-size: 40px;
-    letter-spacing: 1.3rem;
-  }
-  .cover-pic-img-1 {
-    width: 400px;
-  }
-  .cover-pic-img-2 {
-    width: 200px;
-  }
-}
-@media (min-width: 900px) {
-  .heading {
-    width: 55%;
-    margin-left: -8%;
-  }
-  .intro-pic-grouping {
-    margin: 0;
-    flex-wrap: wrap;
-  }
-  .cover-pic-img-1 {
-    margin: 0;
-  }
-}
+
 .intro-pic-grouping {
   display: flex;
 }
@@ -59,4 +36,32 @@ li {
 }
 li img {
   width: 300px;
+}
+@media (min-width: 600px) {
+  h1 {
+    font-size: 40px;
+    letter-spacing: 1.3rem;
+  }
+  .cover-pic-img-1 {
+    width: 400px;
+  }
+  .cover-pic-img-2 {
+    width: 200px;
+  }
+}
+@media (min-width: 900px) {
+  .heading {
+    width: 55%;
+    margin-left: -8%;
+  }
+  .intro-pic-grouping {
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .cover-pic-img-1 {
+    margin: 0;
+  }
+  .cover-pic-img-2 {
+    width: 200px;
+  }
 }
